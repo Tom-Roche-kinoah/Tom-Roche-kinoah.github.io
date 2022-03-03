@@ -8,7 +8,7 @@
 body {
     font-family: 'Titillium Web', sans-serif;
     background-color:var(--secondary-color);
-    background: -webkit-linear-gradient(320deg, #222, #333);
+    background: linear-gradient(250deg, #96bbc7, #121b1e);
     line-height: 1.5;
     height: 100vh;
     display: flex;
@@ -27,7 +27,7 @@ h1{
     background: -webkit-linear-gradient(45deg, var(--main-color), #ffffff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    filter:drop-shadow(0 2px 2px rgba(0, 0, 0, .5)) drop-shadow(0 -2px 2px rgba(255, 255, 255, .2));
+    filter: drop-shadow(0 2px 2px rgba(0, 0, 0, .5)) drop-shadow(0 -2px 2px rgba(255, 255, 255, 0.4));
 }
 h1 span{
     font-size: .3em;
