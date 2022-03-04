@@ -15,7 +15,7 @@ body {
 }
 
 
-h1{
+h1 {
     line-height: .8;
     width:min-content;
     text-align: center;
@@ -25,11 +25,11 @@ h1{
     color:var(--main-color);
     margin:auto;
     background: -webkit-linear-gradient(45deg, var(--main-color), #ffffff);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     filter: drop-shadow(0 2px 2px rgba(0, 0, 0, .5)) drop-shadow(0 -2px 2px rgba(255, 255, 255, 0.4));
 }
-h1 span{
+h1 span {
     font-size: .3em;
     font-weight: 900;
     padding:0 1em;
@@ -37,6 +37,27 @@ h1 span{
     -webkit-text-fill-color: rgb(255, 255, 255);
     border-top:solid 1px white;
     border-bottom:solid 1px white;
+}
+.sign {
+    position:fixed;
+    bottom:1em;
+    right:1em;
+    color:white;
+    font-weight: 200;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    filter: drop-shadow(0 0 .8em black);
+}
+.sign img {
+    width:2em;
+    margin-right:.2em
+}
+.sign .kinoah {
+    font-weight:700;
+}
+.sign .webdesign {
+    
 }
 
 /* Responsive */
