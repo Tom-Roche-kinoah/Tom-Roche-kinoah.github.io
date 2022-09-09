@@ -1,0 +1,1 @@
+<img align=center src="img/kinoah-logo-full-white.svg" alt="Kinoah Logo">
